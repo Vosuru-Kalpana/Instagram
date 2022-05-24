@@ -5,7 +5,11 @@ import Page1 from './src/containers/Page1'
 const App = () => {
   return (
     <View>
-      <Page1 />
+      {/* <Page1 /> */}
+
+      <Text>Kalpana</Text>
+      <Text>Vosuru</Text>
+
     </View>
   )
 }
