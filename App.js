@@ -1,14 +1,15 @@
-import { View, Text } from 'react-native'
 import React from 'react'
-import Page1 from './src/containers/Page1'
+import { View, Text, StatusBar } from 'react-native'
+
 
 const App = () => {
   return (
-    <View>
-      {/* <Page1 /> */}
 
-      <Text>Kalpana</Text>
-      <Text>Vosuru</Text>
+    <View style={{flex:1, backgroundColor:"black", alignItems:"center", justifyContent:"center"}}>
+      <StatusBar backgroundColor="black" />
+
+      <Text style={{color:"white"}}>Kalpana</Text>
+      <Text style={{color:"white"}}>Vosuru</Text>
 
     </View>
   )
