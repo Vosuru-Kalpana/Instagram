@@ -4,7 +4,7 @@ import React from 'react'
 import MaterialIcons from 'react-native-vector-icons/Feather'
 import { hp, wp } from '../common/Dimension'
 
-const Page5 = () => {
+const LogInpage = () => {
   return (
       
     <View style={{flex:1,backgroundColor:"black",flexDirection:"column",justifyContent:"space-between"}}>
@@ -79,4 +79,4 @@ const Page5 = () => {
   )
 }
 
-export default Page5
+export default LogInpage

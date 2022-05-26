@@ -5,7 +5,7 @@ import Followpage from './src/containers/Followpage'
 import SwitchAccount from './src/containers/SwitchAccount'
 import Signuppage from './src/containers/Signuppage'
 import LogInpage from './src/containers/LogInpage'
-import Page6 from './src/containers/Page6'
+import CreateAccount from './src/containers/CreateAccount'
 
 const App = () => {
   return (
@@ -26,7 +26,7 @@ const App = () => {
 
       {/* <LogInpage /> */}
 
-      <Page6 />
+      <CreateAccount />
 
     </View>
   )
